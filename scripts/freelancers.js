@@ -29,7 +29,7 @@ const displayData = (data) => {
         let smallContainer = document.createElement('div');
 
         let personName = document.createElement('h2');
-        personName.textContent = el.name;
+        personName.textContent = `Name: ${el.name}`;
 
         let email = document.createElement('p');
         email.textContent=`Email: ${el.email}`;
