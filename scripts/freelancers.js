@@ -68,7 +68,7 @@ const displayData = (data) => {
 
         })
 
-        smallContainer(profile_picture,personName,email,profession,skills,hourly_rate,isBooked),edit,deleteButton,hire;
+        smallContainer.append(profile_picture,personName,email,profession,skills,hourly_rate,isBooked,edit,deleteButton,hire);
 
         divContainer.appendChild(smallContainer);
     });
