@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #40e4c9;
+    width: 100%;
+    margin: auto;
+}
+
+nav button {
+    font-size: 25px;
+    background:none;
+    border: none;
+    color: rgb(18, 17, 17);
+}
+
+nav button:hover {
+    cursor: pointer;
+}
+
+#loginSection {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(1,1fr);
+    width: 40%;
+    border:1px solid blue;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+#loginSection input {
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+#loginSection button {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #40e4c9;
+}

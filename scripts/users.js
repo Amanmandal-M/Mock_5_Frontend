@@ -10,6 +10,17 @@ const hourlyRate = document.querySelector(".hourlyRate");
 const skills = document.querySelector(".skills");
 const formButton = document.querySelector("form");
 
+const userButton = document.querySelector('.user');
+const adminButton = document.querySelector('.admin');
+
+userButton.addEventListener('click', () =>{
+    window.location.reload();
+});
+
+adminButton.addEventListener('click', () =>{
+    window.location.href = "../html/login.html";
+})
+
 formButton.addEventListener("submit", (e) => {
   e.preventDefault();
 

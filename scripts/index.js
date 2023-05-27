@@ -9,5 +9,5 @@ userButton.addEventListener('click', () =>{
 });
 
 adminButton.addEventListener('click', () =>{
-    window.location.href = "./html/admin.html";
+    window.location.href = "./html/login.html";
 })

@@ -1,4 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #40e4c9;
+    width: 100%;
+    margin: auto;
+}
+
+nav button {
+    font-size: 25px;
+    background:none;
+    border: none;
+    color: rgb(18, 17, 17);
+}
+
+nav button:hover {
+    cursor: pointer;
+}
+
 h1 {
+    margin-top: 10px;
     text-align: center;
 }
 
