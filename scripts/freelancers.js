@@ -37,7 +37,7 @@ const displayData = (data) => {
         let profession = document.createElement('p');
         profession.textContent=`Profession: ${el.profession}`;
 
-        let skills = documentextContentt.createElement('p');
+        let skills = documen.createElement('p');
         skills.textContent=`Skills: ${el.skills}`;
 
         let hourly_rate = document.createElement('p');
