@@ -42,10 +42,6 @@ submitButton.addEventListener('click', (e) =>{
         "email": email.value,
         "password": password.value
     }
-    // let data = {
-    //     "email": "eve.holt@reqres.in",
-    //     "password": "cityslicka"
-    // }
     checkData(data);
 })
 
