@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/users.css">
-    <title>User Page</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/users.css" />
+    <title>User Section</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <div id="formSection">
+      <form>
+        <input
+          type="text"
+          class="personName"
+          placeholder="Enter Name Here"
+          required
+        />
+        <input
+          type="url"
+          class="profileUrl"
+          placeholder="Enter your image url"
+          required
+        />
+        <input
+          type="email"
+          class="email"
+          placeholder="Enter your email"
+          required
+        />
+        <input
+          type="password"
+          class="password"
+          placeholder="Enter your password"
+          required
+        />
+
+        <select name="profession" class="profession">
+          <option value="">Select profession</option>
+          <option value="Student">Student</option>
+          <option value="Web Developer">Web Developer</option>
+          <option value="Grpahic Designer">Grpahic Designer</option>
+        </select>
+
+        <select name="hourlyRate" class="hourlyRate">
+            <option value="">Select Rate</option>
+            <option value="25">$25</option>
+            <option value="30">$30</option>
+            <option value="40">$40</option>
+          </select>
+
+        <label>Skills</label>
+        <input type="text" class="skills" placeholder="Enter your skills put comma(,) after a skill">
+        <input type="submit" class="submit" value="Submit Form" />
+      </form>
+    </div>
+  </body>
 </html>
 <script src="../scripts/users.js"></script>

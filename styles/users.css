@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+
+#formSection {
+    padding-top: 10px;
+    border: 1px solid red;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#formSection form {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+}
+
+#formSection form input {
+    width: 90%;
+    padding: 7px;
+    margin: auto;
+}
+
+#formSection form select {
+    width: 95%;
+    padding: 7px;
+    margin: auto;
+}
+
+.checkBox{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 50%;
+    margin: auto;
+}
+
+.checkBox p  {
+    display: block;
+    margin: auto;
+}
+
+
+label {
+    margin: auto;
+    font-size: 20px;
+}
+
+
+#formSection form input[type="submit"] {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 60%;
+    border-radius: 10px ;
+    border: 2px solid rgb(143, 78, 78);
+    font-size: 20px;
+    cursor: pointer;
+    background-color: beige;
+}
